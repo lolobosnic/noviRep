@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="angular.js"></script>
+    <script src="skripta.js"></script>
+</head>
+
+<body ng-app="app1" ng-controller="homeController">
+
+    {{varijabla}}
+    {{2+2}}
+    
+    Unesi ime:<br>
+    <input type="text" ng-model="ime">
+    <input type="checkbox" ng-model="isClicked"> 
+    
+    {{isClicked}}
+<h1>{{ime}}</h1>
+
+    <button ng-click="ime ='tomi'">
+        Klikni ako si tomi
+    </button>
+    
+    
+    
+</body>
+
+
+</html>
